@@ -1,0 +1,33 @@
+---
+title: "Meta-Analysis Assignment IV"
+author: "Tim Hendriks"
+format: html
+editor: visual
+---
+
+## My Meta-Analysis
+
+My Meta-Analysis is about the effect of aerobic exercise on depression outcomes. The analysis consisted of 11 studies, of which 2 could be used for 2 outcomes, so that results in 13 effect sizes. It's called:
+
+Morres, I. D., Hatzigeorgiadis, A., Stathi, A., Comoutos, N., Arpin-Cribbie, C., Krommidas, C., & Theodorakis, Y. (2019). Aerobic exercise for adult patients with major depressive disorder in mental health services: A systematic review and meta-analysis. Depression and Anxiety, 36(1), 39–53. <https://doi.org/10.1002/da.22842>
+
+They report all the necessary data quite neatly, with a table with effect size per study, SE's, CI's, z-value and p-value provided. So I could conveniently copy these values into an excel file. I also chose the way their depression was measured as moderator; clinically rated vs self-rated.
+
+## Code
+
+```{r}
+install.packages("meta")
+library(readxl)
+library(meta)
+data <- read_excel("C:\Users\20224078\OneDrive - TU Eindhoven\Meta-Analysis-Excel.xlsx")
+
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
