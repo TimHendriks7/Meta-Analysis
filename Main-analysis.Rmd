@@ -1,0 +1,31 @@
+---
+title: "Main Analysis"
+author: "Tim Hendriks"
+date: "2026-09-27"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+My Meta-Analysis is about the effect of aerobic exercise on depression outcomes. The analysis consisted of 11 studies, of which 2 could be used for 2 outcomes, so that results in 13 effect sizes. It's called: 
+
+Morres, I. D., Hatzigeorgiadis, A., Stathi, A., Comoutos, N., Arpin-Cribbie, C., Krommidas, C., & Theodorakis, Y. (2019). Aerobic exercise for adult patients with major depressive disorder in mental health services: A systematic review and meta-analysis. Depression and Anxiety, 36(1), 39–53. https://doi.org/10.1002/da.22842
+
+They report all the necessary data quite neatly, with a table with effect size per study, SE's, CI's, z-value and p-value provided. So I could conveniently copy these values into an excel file. I also chose the way their depression was measured as moderator; clinically rated vs self-rated.
+
+
+```{r cars}
+
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
